@@ -31,6 +31,6 @@ public class ListaCircularDuplamenteEncadeada<T> {
             cursor = passos > 0 ? cursor.proximo : cursor.anterior;
         }
 
-        atual = cursor; // Atualiza o ponteiro atual
+        atual = cursor;
     }
 }
